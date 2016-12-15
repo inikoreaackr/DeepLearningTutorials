@@ -12,4 +12,4 @@ saver 예제는 해당 Directory에 save 폴더가 미리 있어야함
 
 
 ###16.12.16
-CNN Saver, restore 예제 및 GPU환경에서 training된 model파일 추가
+CNN Saver, restore 예제 추가
