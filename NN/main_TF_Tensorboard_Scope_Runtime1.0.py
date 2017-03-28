@@ -12,13 +12,13 @@ def variable_summaries(var, name):
   """Attach a lot of summaries to a Tensor."""
   with tf.name_scope('summaries'):
     mean = tf.reduce_mean(var)
-    tf.scalar_summary('mean/' + name, mean)
+    tf.summary.scalar('mean/' + name, mean)
     with tf.name_scope('stddev'):
       stddev = tf.sqrt(tf.reduce_mean(tf.square(var - mean)))
-    tf.scalar_summary('stddev/' + name, stddev)
-    tf.scalar_summary('max/' + name, tf.reduce_max(var))
-    tf.scalar_summary('min/' + name, tf.reduce_min(var))
-    tf.histogram_summary(name, var)
+    tf.summary.scalar('stddev/' + name, stddev)
+    tf.summary.scalar('max/' + name, tf.reduce_max(var))
+    tf.summary.scalar('min/' + name, tf.reduce_min(var))
+    tf.summary.histogram(name, var)
 
 #### 모델 셋팅 시작 ####
 with tf.name_scope('input'):
@@ -36,45 +36,58 @@ with tf.name_scope('FC_Layer') as scope:
     variable_summaries(b, 'biases')
   with tf.name_scope('Wx_plus_b'):
     preactivate = tf.matmul(x, W) + b
-    tf.histogram_summary('pre_activations', preactivate)
+    tf.summary.histogram('pre_activations', preactivate)
   y = tf.nn.softmax(preactivate) # 예측 Label 값
-  tf.histogram_summary('softmax', y)
+  tf.summary.histogram('softmax', y)
 
 
 
 with tf.name_scope('cross_entropy'):
-  cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y), reduction_indices=[1]), name="Cross_entropy") # Loss
-  tf.scalar_summary('cross entropy', cross_entropy)
+  cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y), axis=[1]), name="Cross_entropy") # Loss
+  tf.summary.scalar('cross entropy', cross_entropy)
 
 with tf.name_scope('train'):
   train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
-
 #### 모델 셋팅 끝 ####
 
 
 with tf.name_scope('accuracy'):
   correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1), name="correct_prediction")
   accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32), name="accuracy")
-  tf.scalar_summary('accuracy', accuracy)
+  tf.summary.scalar('accuracy', accuracy)
 
 # Merge all the summaries and write them out to /tmp/mnist_logs (by default) # 저장 위치 지정가능
-merged = tf.merge_all_summaries()
+merged = tf.summary.merge_all()
 
 
-init = tf.initialize_all_variables() # 변수 초기화(텐서플로우 필수과정)
+init = tf.global_variables_initializer() # 변수 초기화(텐서플로우 필수과정)
 
 sess = tf.Session() # 세션 열기
 sess.run(init) # 초기화
 
-train_writer = tf.train.SummaryWriter('./train',
+train_writer = tf.summary.FileWriter('./train',
                                       sess.graph)
-test_writer = tf.train.SummaryWriter('./test')
+test_writer = tf.summary.FileWriter('./test')
 
 for i in range(1000):
-  batch_xs, batch_ys = mnist.train.next_batch(100) # train, validation, test 에 데이터가 들어가 있음 #  return self._images[start:end], self._labels[start:end]
-  #sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys})
-  summary, _ = sess.run([merged, train_step], feed_dict={x: batch_xs, y_: batch_ys})
-  train_writer.add_summary(summary, i)
+
+  if i % 10 == 0:  # Record summaries and test-set accuracy
+    summary, acc = sess.run([merged, accuracy], feed_dict={x: mnist.test.images, y_: mnist.test.labels})
+    test_writer.add_summary(summary, i)
+    print('Accuracy at step %s: %s' % (i, acc))
+  if i % 100 == 99:  # Record execution stats, Starting at 99 and This code will emit runtime statistics for every 100th step
+    batch_xs, batch_ys = mnist.train.next_batch(100)  # train, validation, test 에 데이터가 들어가 있음 #  return self._images[start:end], self._labels[start:end]
+    run_options = tf.RunOptions(trace_level=tf.RunOptions.FULL_TRACE)
+    run_metadata = tf.RunMetadata()
+    summary, _ = sess.run([merged, train_step], feed_dict={x: batch_xs, y_: batch_ys},
+                            options=run_options, run_metadata=run_metadata)
+    train_writer.add_run_metadata(run_metadata, 'step%d' % i)
+    train_writer.add_summary(summary, i)
+    print('Adding run metadata for', i)
+  else:
+    batch_xs, batch_ys = mnist.train.next_batch(100)
+    summary, _ = sess.run([merged, train_step], feed_dict={x: batch_xs, y_: batch_ys})
+    train_writer.add_summary(summary, i)
 
 
 #### 테스트 그래프 셋팅 시작 ####
@@ -85,3 +98,5 @@ print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}
 
 
 
+## Reference
+#https://github.com/tensorflow/tensorflow/blob/r0.11/tensorflow/examples/tutorials/mnist/mnist_with_summaries.py

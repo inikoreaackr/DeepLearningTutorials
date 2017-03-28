@@ -17,14 +17,14 @@ y = tf.nn.softmax(tf.matmul(x, W) + b) # 예측 Label 값
 
 y_ = tf.placeholder(tf.float32, [None, 10]) # True Label 값
 
-cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y), reduction_indices=[1])) # Loss
+cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y), axis=[1])) # Loss
 
 train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
 
 #### 모델 셋팅 끝 ####
 
 
-init = tf.initialize_all_variables() # 변수 초기화(텐서플로우 필수과정)
+init = tf.global_variables_initializer() # 변수 초기화(텐서플로우 필수과정)
 
 sess = tf.Session() # 세션 열기
 sess.run(init) # 초기화

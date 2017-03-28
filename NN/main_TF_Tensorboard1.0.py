@@ -12,13 +12,13 @@ def variable_summaries(var, name):
   """Attach a lot of summaries to a Tensor."""
   with tf.name_scope('summaries'):
     mean = tf.reduce_mean(var)
-    tf.scalar_summary('mean/' + name, mean)
+    tf.summary.scalar('mean/' + name, mean)
     with tf.name_scope('stddev'):
       stddev = tf.sqrt(tf.reduce_mean(tf.square(var - mean)))
-    tf.scalar_summary('stddev/' + name, stddev)
-    tf.scalar_summary('max/' + name, tf.reduce_max(var))
-    tf.scalar_summary('min/' + name, tf.reduce_min(var))
-    tf.histogram_summary(name, var)
+    tf.summary.scalar('stddev/' + name, stddev)
+    tf.summary.scalar('max/' + name, tf.reduce_max(var))
+    tf.summary.scalar('min/' + name, tf.reduce_min(var))
+    tf.summary.histogram(name, var)
 
 
 
@@ -33,10 +33,10 @@ variable_summaries(W, 'weights')
 variable_summaries(b, 'biases')
 
 y = tf.nn.softmax(tf.matmul(x, W) + b) # 예측 Label 값
-tf.histogram_summary('pre_activations', y)
+tf.summary.histogram('pre_activations', y)
 
-cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y), reduction_indices=[1]), name="Cross_entropy") # Loss
-tf.scalar_summary('cross entropy', cross_entropy)
+cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y), axis=[1]), name="Cross_entropy") # Loss
+tf.summary.scalar('cross entropy', cross_entropy)
 
 train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
 #### 모델 셋팅 끝 ####
@@ -44,20 +44,20 @@ train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
 
 correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1), name="correct_prediction")
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32), name="accuracy")
-tf.scalar_summary('accuracy', accuracy)
+tf.summary.scalar('accuracy', accuracy)
 
 # Merge all the summaries and write them out to /tmp/mnist_logs (by default) # 저장 위치 지정가능
-merged = tf.merge_all_summaries()
+merged = tf.summary.merge_all()
 
 
-init = tf.initialize_all_variables() # 변수 초기화(텐서플로우 필수과정)
+init = tf.global_variables_initializer() # 변수 초기화(텐서플로우 필수과정)
 
 sess = tf.Session() # 세션 열기
 sess.run(init) # 초기화
 
-train_writer = tf.train.SummaryWriter('./train',
+train_writer = tf.summary.FileWriter('./train',
                                       sess.graph)
-test_writer = tf.train.SummaryWriter('./test')
+test_writer = tf.summary.FileWriter('./test')
 
 for i in range(1000):
   batch_xs, batch_ys = mnist.train.next_batch(100) # train, validation, test 에 데이터가 들어가 있음 #  return self._images[start:end], self._labels[start:end]

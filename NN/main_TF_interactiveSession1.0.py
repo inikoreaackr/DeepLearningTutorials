@@ -19,11 +19,11 @@ print(W.get_shape())
 print(b.get_shape())
 
 # Session run for Init variables
-sess.run(tf.initialize_all_variables())
+sess.run(tf.global_variables_initializer())
 
 # Predict
 y = tf.matmul(x,W) + b
-cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(y, y_))
+cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=y, labels=y_))
 
 # Training Model
 train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)

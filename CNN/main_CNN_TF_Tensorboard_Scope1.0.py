@@ -13,13 +13,13 @@ def variable_summaries(var, name):
   """Attach a lot of summaries to a Tensor."""
   with tf.name_scope('summaries'):
     mean = tf.reduce_mean(var)
-    tf.scalar_summary('mean/' + name, mean)
+    tf.summary.scalar('mean/' + name, mean)
     with tf.name_scope('stddev'):
       stddev = tf.sqrt(tf.reduce_mean(tf.square(var - mean)))
-    tf.scalar_summary('stddev/' + name, stddev)
-    tf.scalar_summary('max/' + name, tf.reduce_max(var))
-    tf.scalar_summary('min/' + name, tf.reduce_min(var))
-    tf.histogram_summary(name, var)
+    tf.summary.scalar('stddev/' + name, stddev)
+    tf.summary.scalar('max/' + name, tf.reduce_max(var))
+    tf.summary.scalar('min/' + name, tf.reduce_min(var))
+    tf.summary.histogram(name, var)
 
 # Create Session
 sess = tf.InteractiveSession()
@@ -52,8 +52,7 @@ def max_pool_2x2(x, name):
 # Reshape Input
 with tf.name_scope('input_reshape'):
   x_image = tf.reshape(x, [-1,28,28,1], name="x_image_reshape") # ?, width, height, Dim of Color   # 1 dim -> 4d tensor
-  tf.image_summary('input', x_image, 10)
-
+  tf.summary.image('input', x_image, 10)
 
 
 
@@ -70,7 +69,6 @@ with tf.name_scope("Conv_Layer1"):
 with tf.name_scope("Pooling_Layer1"):
   h_pool1 = max_pool_2x2(h_conv1, name="h_pool1")
   variable_summaries(h_pool1, 'h_pool1')
-
 
 
 with tf.name_scope("Conv_Layer2"):
@@ -116,14 +114,14 @@ with tf.name_scope("FC_Layer2"):
   variable_summaries(b_fc2, 'b_fc2')
   with tf.name_scope('Wx_plus_b'):
     y_conv = tf.matmul(h_fc1_drop, W_fc2) + b_fc2
-    tf.histogram_summary('y_conv', y_conv)
+    tf.summary.histogram('y_conv', y_conv)
 
 
 
 # Train and Evaluate the Model
 with tf.name_scope("cross_entropy"):
-  cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(y_conv, y_), name="cross_entropy")
-  tf.scalar_summary('cross entropy', cross_entropy)
+  cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=y_conv, labels=y_), name="cross_entropy")
+  tf.summary.scalar('cross entropy', cross_entropy)
 
 with tf.name_scope('train'):
   train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
@@ -135,46 +133,27 @@ with tf.name_scope('accuracy'):
     #tf.scalar_summary('correct_prediction', correct_prediction) #에러 발생
   with tf.name_scope('accuracy'):
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32), name="accuracy")
-  tf.scalar_summary('accuracy', accuracy)
+  tf.summary.scalar('accuracy', accuracy)
 
 
-merged = tf.merge_all_summaries()
+merged = tf.summary.merge_all()
 
-sess.run(tf.initialize_all_variables())
+sess.run(tf.global_variables_initializer())
 
-train_writer = tf.train.SummaryWriter('./train', sess.graph)
-test_writer = tf.train.SummaryWriter('./test')
+train_writer = tf.summary.FileWriter('./train', sess.graph)
+test_writer = tf.summary.FileWriter('./test')
 
 for i in range(20000):
-
+  batch = mnist.train.next_batch(50)
   if i%100 == 0:
-    # Training Accuracy Code
-    batch = mnist.train.next_batch(50)
     train_accuracy = accuracy.eval(feed_dict={
         x:batch[0], y_: batch[1], keep_prob: 1.0})
     print("step %d, training accuracy %g"%(i, train_accuracy))
-    summary, _ = sess.run([merged, train_step], feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
-    train_writer.add_summary(summary, i)
+  #train_step.run(feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
 
-    #Test Accuracy Code
-    #summary, acc = sess.run([merged, accuracy], feed_dict={x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0})
-    #test_writer.add_summary(summary, i)
-    #print('step %d, Test Accuracy : %s' % (i, acc))
+  summary, _ = sess.run([merged, train_step], feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
+  train_writer.add_summary(summary, i)
 
-
-  if i % 100 == 99:  # Record execution stats, Starting at 99 and This code will emit runtime statistics for every 100th step
-    batch = mnist.train.next_batch(50)
-    run_options = tf.RunOptions(trace_level=tf.RunOptions.FULL_TRACE)
-    run_metadata = tf.RunMetadata()
-    summary, _ = sess.run([merged, train_step], feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5},
-                            options=run_options, run_metadata=run_metadata)
-    train_writer.add_run_metadata(run_metadata, 'step%d' % i)
-    train_writer.add_summary(summary, i)
-    print('Adding run metadata for', i)
-  else:
-    batch = mnist.train.next_batch(50)
-    summary, _ = sess.run([merged, train_step], feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
-    train_writer.add_summary(summary, i)
 
 print("test accuracy %g"%accuracy.eval(feed_dict={
     x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0}))

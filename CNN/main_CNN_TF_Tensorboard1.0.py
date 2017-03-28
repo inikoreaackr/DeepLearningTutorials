@@ -13,13 +13,13 @@ def variable_summaries(var, name):
   """Attach a lot of summaries to a Tensor."""
   with tf.name_scope('summaries'):
     mean = tf.reduce_mean(var)
-    tf.scalar_summary('mean/' + name, mean)
+    tf.summary.scalar('mean/' + name, mean)
     with tf.name_scope('stddev'):
       stddev = tf.sqrt(tf.reduce_mean(tf.square(var - mean)))
-    tf.scalar_summary('stddev/' + name, stddev)
-    tf.scalar_summary('max/' + name, tf.reduce_max(var))
-    tf.scalar_summary('min/' + name, tf.reduce_min(var))
-    tf.histogram_summary(name, var)
+    tf.summary.scalar('stddev/' + name, stddev)
+    tf.summary.scalar('max/' + name, tf.reduce_max(var))
+    tf.summary.scalar('min/' + name, tf.reduce_min(var))
+    tf.summary.histogram(name, var)
 
 # Create Session
 sess = tf.InteractiveSession()
@@ -100,26 +100,26 @@ variable_summaries(b_fc2, 'b_fc2')
 
 
 y_conv = tf.matmul(h_fc1_drop, W_fc2) + b_fc2
-tf.histogram_summary('y_conv', y_conv)
+tf.summary.histogram('y_conv', y_conv)
 
 # Train and Evaluate the Model
-cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(y_conv, y_), name="cross_entropy")
-tf.scalar_summary('cross entropy', cross_entropy)
+cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=y_conv, labels=y_), name="cross_entropy")
+tf.summary.scalar('cross entropy', cross_entropy)
 
 train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
 correct_prediction = tf.equal(tf.argmax(y_conv,1), tf.argmax(y_,1), name="correct_prediction") # argmax(input,  dimension of the input Tensor to reduce across)
 #tf.scalar_summary('correct_prediction', correct_prediction)
 
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32), name="accuracy")
-tf.scalar_summary('accuracy', accuracy)
+tf.summary.scalar('accuracy', accuracy)
 
 
-merged = tf.merge_all_summaries()
+merged = tf.summary.merge_all()
 
-sess.run(tf.initialize_all_variables())
+sess.run(tf.global_variables_initializer())
 
-train_writer = tf.train.SummaryWriter('./train', sess.graph)
-test_writer = tf.train.SummaryWriter('./test')
+train_writer = tf.summary.FileWriter('./train', sess.graph)
+test_writer = tf.summary.FileWriter('./test')
 
 for i in range(20000):
   batch = mnist.train.next_batch(50)
