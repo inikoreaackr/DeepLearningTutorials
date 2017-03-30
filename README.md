@@ -17,6 +17,10 @@ CNN Saver, restore 예제 추가
 ### 17.3.28
 TF 1.0 Version에 맞게 코드 변경
 
+### 17.3.30
+TF 1.0 Version에 맞게 iPython 코드 변경 및 PyTorch 예제 코드 추가
+
+
 ## Future work
 TF Embedding Visualization
 RNN
