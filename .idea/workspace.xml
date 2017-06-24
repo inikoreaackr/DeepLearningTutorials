@@ -2,67 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dc116f-520a-48a6-aa65-947acd2709fb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/DeepLearningTutorials.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/main_CNN_Keras1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/main_CNN_TF1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/main_CNN_TF_Tensorboard1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/main_CNN_TF_Tensorboard_Scope1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/main_CNN_TF_Tensorboard_Scope_Runtime1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/main_TF1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/main_TF_Keras1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/main_TF_ReadFile_Thread1.0_Depreciated.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/main_TF_Tensorboard1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/main_TF_Tensorboard_Scope1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/main_TF_Tensorboard_Scope_Runtime1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/main_TF_Tensorboard_Scope_Runtime_Saver1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/main_TF_Tensorboard_Scope_Runtime_Saver_Restore1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/main_TF_interactiveSession1.0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/save/checkpoint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/save/model.ckpt.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/save/model.ckpt.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/save/model.ckpt.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/test/events.out.tfevents.1490682103.Adullamui-MacBook-Pro.local" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/test/events.out.tfevents.1490682140.Adullamui-MacBook-Pro.local" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/train/events.out.tfevents.1490681942.Adullamui-MacBook-Pro.local" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/train/events.out.tfevents.1490682103.Adullamui-MacBook-Pro.local" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NN/train/events.out.tfevents.1490682140.Adullamui-MacBook-Pro.local" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ReadMeFor_tf_upgrade.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/MNIST_data/t10k-images-idx3-ubyte.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/MNIST_data/t10k-labels-idx1-ubyte.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/MNIST_data/train-images-idx3-ubyte.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/MNIST_data/train-labels-idx1-ubyte.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/MNIST_data/t10k-images-idx3-ubyte.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/MNIST_data/t10k-labels-idx1-ubyte.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/MNIST_data/train-images-idx3-ubyte.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/MNIST_data/train-labels-idx1-ubyte.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/Max_pooling.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/anaconda_install_py.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/embedding_mnist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/lstm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/mnist/mnist_10k_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/quora.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/skipgram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/tensorboard_embedding.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/tf_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/tf_1_install.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/tf_2_install.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/tf_3_cpgraph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/tf_4_cpgraph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/tf_5_cpgraph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/typical_cnn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/vgg_net.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/assets/케글그림.pptx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/train/events.out.tfevents.1498288433.DESKTOP-KVBNCSL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/train/events.out.tfevents.1498288909.DESKTOP-KVBNCSL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DeepLearningTutorials.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/.ipynb_checkpoints/1_hello_tensorflow-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/.ipynb_checkpoints/CNN_1-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/.ipynb_checkpoints/CNN_2_advanced-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/.ipynb_checkpoints/RNN_1-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/.ipynb_checkpoints/Tensorflow_basic-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/.ipynb_checkpoints/Word2vec_Gensim_Tensorboard-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/CNN_1.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/CNN_2_advanced.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF_Tensorboard-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF_Tensorboard_Scope-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF_Tensorboard_Scope_Runtime-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF_Tensorboard_Scope_Runtime_Saver_Restore-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF_Tensorboard_Scope_Runtime_Saver.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF_Tensorboard-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope_Runtime-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope_Runtime_Saver-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope_Runtime_Saver_Restore-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF_interactiveSession-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/main_NN_TF.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope_Runtime.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope_Runtime_Saver.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope_Runtime_Saver_Restore.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Neural Network/main_NN_TF_interactiveSession.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/RNN_1.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/RNN_2.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Tensorflow_basic.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Word2vec_Gensim_Tensorboard.ipynb" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/SVM/main_scikit_learn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/.ipynb_checkpoints/main_NN_TF-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/.ipynb_checkpoints/main_NN_TF_ReadFile_Thread-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/.ipynb_checkpoints/main_NN_TF_Tensorboard-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope_Runtime-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope_Runtime_Saver-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope_Runtime_Saver_Restore-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/.ipynb_checkpoints/main_NN_TF_interactiveSession-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/1_hello_tensorflow.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/2_getting_started.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/3_mnist_from_scratch.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/CNN/.ipynb_checkpoints/main_CNN_TF-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/CNN/.ipynb_checkpoints/main_CNN_TF_Tensorboard-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/CNN/.ipynb_checkpoints/main_CNN_TF_Tensorboard_Scope-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/CNN/.ipynb_checkpoints/main_CNN_TF_Tensorboard_Scope_Runtime-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/CNN/main_CNN_TF.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/CNN/main_CNN_TF_Tensorboard.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/CNN/main_CNN_TF_Tensorboard_Scope.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/CNN/main_CNN_TF_Tensorboard_Scope_Runtime.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/CNN/main_CNN_TF_Tensorboard_Scope_Runtime_Saver.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/CNN/main_CNN_TF_Tensorboard_Scope_Runtime_Saver_Restore.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/NN/main_NN_TF.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/NN/main_NN_TF_ReadFile_Thread.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/NN/main_NN_TF_Tensorboard.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/NN/main_NN_TF_Tensorboard_Scope.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/NN/main_NN_TF_Tensorboard_Scope_Runtime.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/NN/main_NN_TF_Tensorboard_Scope_Runtime_Saver.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/NN/main_NN_TF_Tensorboard_Scope_Runtime_Saver_Restore.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iPythonNotebook/NN/main_NN_TF_interactiveSession.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tf_upgrade.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/CNN/main_CNN_Keras1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/CNN/main_CNN_TF1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/CNN/main_CNN_TF_Tensorboard1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/CNN/main_CNN_TF_Tensorboard_Scope1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/CNN/main_CNN_TF_Tensorboard_Scope_Runtime1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/main_TF1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/main_TF_Keras1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/main_TF_ReadFile_Thread1.0_Depreciated.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/main_TF_Tensorboard1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope_Runtime1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope_Runtime_Saver1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope_Runtime_Saver_Restore1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/main_TF_interactiveSession1.0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/save/checkpoint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/save/model.ckpt.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/save/model.ckpt.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/NN/save/model.ckpt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/NN/main_NN_TF.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/NN/main_NN_TF_Tensorboard.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/NN/main_NN_TF_Tensorboard_Scope.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/NN/main_NN_TF_Tensorboard_Scope_Runtime.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/NN/main_NN_TF_Tensorboard_Scope_Runtime_Saver.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/NN/main_NN_TF_Tensorboard_Scope_Runtime_Saver_Restore.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/NN/main_NN_TF_interactiveSession.ipynb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/Basic/autograd_tutorial.ipynb" afterPath="$PROJECT_DIR$/PyTorch(진행중)/Basic/autograd_tutorial.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/Basic/autograd_tutorial.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/Basic/autograd_tutorial.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/Basic/main_PT.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/Basic/main_PT.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/Basic/main_PT_autograd.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/Basic/main_PT_autograd.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/Basic/main_PT_numpy_bridge.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/Basic/main_PT_numpy_bridge.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/Basic/tensor_tutorial.ipynb" afterPath="$PROJECT_DIR$/PyTorch(진행중)/Basic/tensor_tutorial.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/Basic/tensor_tutorial.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/Basic/tensor_tutorial.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/Install.txt" afterPath="$PROJECT_DIR$/PyTorch(진행중)/Install.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/NN/MNISTConvNet.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/NN/MNISTConvNet.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/NN/autograd_tutorial.ipynb" afterPath="$PROJECT_DIR$/PyTorch(진행중)/NN/autograd_tutorial.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/NN/cifar10_tutorial.ipynb" afterPath="$PROJECT_DIR$/PyTorch(진행중)/NN/cifar10_tutorial.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/NN/cifar10_tutorial.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/NN/cifar10_tutorial.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/NN/main_CNN_NN_PT.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/NN/main_CNN_NN_PT.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/NN/neural_networks_tutorial.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/NN/neural_networks_tutorial.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/NN/tensor_tutorial.ipynb" afterPath="$PROJECT_DIR$/PyTorch(진행중)/NN/tensor_tutorial.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/RNN/RNN.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/RNN/RNN.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PyTorch/RNN/nn_tutorial.py" afterPath="$PROJECT_DIR$/PyTorch(진행중)/RNN/nn_tutorial.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ReadMeFor_tf_upgrade.txt" afterPath="$PROJECT_DIR$/TF_version_upgrade_for_1.0_util/ReadMeFor_tf_upgrade.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/1_hello_tensorflow.ipynb" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Basics(Docker example)/1_hello_tensorflow.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/2_getting_started.ipynb" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Basics(Docker example)/2_getting_started.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/3_mnist_from_scratch.ipynb" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Basics(Docker example)/3_mnist_from_scratch.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/CNN/main_CNN_TF.ipynb" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/CNN/main_CNN_TF_Tensorboard.ipynb" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF_Tensorboard.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/CNN/main_CNN_TF_Tensorboard_Scope.ipynb" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF_Tensorboard_Scope.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/CNN/main_CNN_TF_Tensorboard_Scope_Runtime.ipynb" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF_Tensorboard_Scope_Runtime.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/CNN/main_CNN_TF_Tensorboard_Scope_Runtime_Saver.ipynb" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF_Tensorboard_Scope_Runtime_Saver-checkpoint.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TF/iPythonNotebook/CNN/main_CNN_TF_Tensorboard_Scope_Runtime_Saver_Restore.ipynb" afterPath="$PROJECT_DIR$/TF/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF_Tensorboard_Scope_Runtime_Saver_Restore.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tf_upgrade.py" afterPath="$PROJECT_DIR$/TF_version_upgrade_for_1.0_util/tf_upgrade.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="DeepLearningTutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +139,7 @@
     <favorites_list name="DeepLearningTutorials" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,24 +172,15 @@
         <option value="$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope_Runtime_Saver1.0.py" />
         <option value="$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope_Runtime_Saver_Restore1.0.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/TF/NN/main_TF1.0.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1778" />
-    <option name="y" value="208" />
+    <option name="x" value="1744" />
+    <option name="y" value="299" />
     <option name="width" value="1280" />
     <option name="height" value="731" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -149,6 +198,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,10 +206,31 @@
               <option name="myItemId" value="DeepLearningTutorials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepLearningTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepLearningTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepLearningTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iPythonNotebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,16 +500,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1778" y="208" width="1280" height="731" extended-state="0" />
+    <frame x="1744" y="299" width="1280" height="731" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22478157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22463769" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32663316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -470,7 +541,7 @@
     <entry file="file://$PROJECT_DIR$/TF/NN/main_TF_Keras1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-619">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -486,49 +557,49 @@
     <entry file="file://$PROJECT_DIR$/TF/CNN/main_CNN_Keras1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TF/CNN/main_CNN_TF1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TF/NN/save/checkpoint">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TF/CNN/main_CNN_TF_Tensorboard1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TF/CNN/main_CNN_TF_Tensorboard_Scope1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TF/CNN/main_CNN_TF_Tensorboard_Scope_Runtime1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PyTorch/Basic/tensor_tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -542,21 +613,15 @@
     <entry file="file://$PROJECT_DIR$/PyTorch/Basic/autograd_tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="92" column="57" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
+          <caret line="92" column="57" lean-forward="false" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py" />
     <entry file="file://$PROJECT_DIR$/PyTorch/Install.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -568,13 +633,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.2/python_stubs/-670163636/builtins.py" />
-    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/__init__.py" />
     <entry file="file://$PROJECT_DIR$/PyTorch/NN/cifar10_tutorial.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -585,77 +644,53 @@
     <entry file="file://$PROJECT_DIR$/PyTorch/NN/neural_networks_tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="18" />
+          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PyTorch/NN/main_CNN_NN_PT.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1545">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PyTorch/NN/cifar10_tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2385">
-          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PyTorch/Basic/main_PT.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PyTorch/Basic/main_PT_autograd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PyTorch/Basic/main_PT_numpy_bridge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/conv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="224" column="61" selection-start-line="224" selection-start-column="50" selection-end-line="224" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/nn/_functions/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/nn/functional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="419" column="20" selection-start-line="419" selection-start-column="20" selection-end-line="419" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/loss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="314" column="25" selection-start-line="314" selection-start-column="25" selection-end-line="314" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/conv.py" />
+    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/nn/_functions/__init__.py" />
+    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/nn/functional.py" />
+    <entry file="file://$USER_HOME$/anaconda/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/loss.py" />
     <entry file="file://$PROJECT_DIR$/PyTorch/NN/MNISTConvNet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -663,21 +698,7 @@
     <entry file="file://$PROJECT_DIR$/PyTorch/RNN/nn_tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3870">
-          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF/NN/main_TF1.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF/iPythonNotebook/1_hello_tensorflow.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="22" />
+          <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -734,35 +755,35 @@
     <entry file="file://$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope_Runtime_Saver1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+          <caret line="98" column="19" lean-forward="false" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope_Runtime1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
-          <caret line="72" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <caret line="72" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TF/NN/main_TF_Tensorboard1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PyTorch/RNN/RNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -776,16 +797,14 @@
     <entry file="file://$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope_Runtime_Saver_Restore1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="103" column="24" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
-          <folding />
+          <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding />
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -793,6 +812,21 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TF/iPythonNotebook/1_hello_tensorflow.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TF/NN/main_TF1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259">
+          <caret line="16" column="75" lean-forward="false" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>

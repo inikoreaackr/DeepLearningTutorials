@@ -20,8 +20,11 @@ TF 1.0 Version에 맞게 코드 변경
 ### 17.3.30
 TF 1.0 Version에 맞게 iPython 코드 변경 및 PyTorch 예제 코드 추가
 
+### 17.6.24
+- MNIST 예제 코드 수정
+- TF Embedding Visualization 코드 추가
+- RNN example 추가
+- word2vec example 추가
 
 ## Future work
-TF Embedding Visualization
-RNN
-Attention Implementation
+RNN, Image captioning and etc.
