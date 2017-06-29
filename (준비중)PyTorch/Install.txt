@@ -1,6 +1,0 @@
-#Install guide for MacOS
-conda create -n pytorch
-source activate pytorch
-
-conda install pytorch torchvision -c soumith
-# OSX Binaries dont support CUDA, install from source if CUDA is needed
