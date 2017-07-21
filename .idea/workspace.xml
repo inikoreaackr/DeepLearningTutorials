@@ -2,36 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dc116f-520a-48a6-aa65-947acd2709fb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF_Tensorboard-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF_Tensorboard_Scope-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF_Tensorboard_Scope_Runtime-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF_Tensorboard_Scope_Runtime_Saver-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/.ipynb_checkpoints/main_CNN_TF_Tensorboard_Scope_Runtime_Saver_Restore-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/MNIST_data/t10k-images-idx3-ubyte.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/MNIST_data/t10k-labels-idx1-ubyte.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/MNIST_data/train-images-idx3-ubyte.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/MNIST_data/train-labels-idx1-ubyte.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF_Tensorboard.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF_Tensorboard_Scope.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF_Tensorboard_Scope_Runtime.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF_Tensorboard_Scope_Runtime_Saver.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Convolutioanl Neural Network/main_CNN_TF_Tensorboard_Scope_Runtime_Saver_Restore.ipynb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/assets/Max_pooling.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/assets/typical_cnn.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/.ipynb_checkpoints/Autoencoder_simple-checkpoint.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/.ipynb_checkpoints/Autoencoder_simple-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/.ipynb_checkpoints/CNN_1-checkpoint.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/.ipynb_checkpoints/CNN_1-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/.ipynb_checkpoints/CNN_2_advanced-checkpoint.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/.ipynb_checkpoints/CNN_2_advanced-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Autoencoder_simple.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Autoencoder_simple.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/CNN_1.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/CNN_1.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/CNN_2_advanced.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/CNN_2_advanced.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope_Runtime_Saver-checkpoint.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope_Runtime_Saver-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope_Runtime_Saver_Restore-checkpoint.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/.ipynb_checkpoints/main_NN_TF_Tensorboard_Scope_Runtime_Saver_Restore-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope_Runtime.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope_Runtime.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope_Runtime_Saver.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope_Runtime_Saver.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope_Runtime_Saver_Restore.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Neural Network/main_NN_TF_Tensorboard_Scope_Runtime_Saver_Restore.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Tensorflow_basic.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/iPythonNotebook/Tensorflow_basic.ipynb" />
     </list>
     <ignored path="DeepLearningTutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +30,18 @@
     <favorites_list name="DeepLearningTutorials" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,14 +75,15 @@
         <option value="$PROJECT_DIR$/TF/NN/main_TF_Tensorboard_Scope_Runtime_Saver_Restore1.0.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/TF/NN/main_TF1.0.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
-    <option name="y" value="67" />
-    <option name="width" value="962" />
-    <option name="height" value="629" />
+    <option name="x" value="219" />
+    <option name="y" value="233" />
+    <option name="width" value="1058" />
+    <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -118,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -155,9 +148,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepLearningTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepLearningTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TensorFlow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iPythonNotebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="train" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,16 +441,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="67" width="962" height="629" extended-state="1" />
+    <frame x="219" y="233" width="1058" height="734" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21891604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21793635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22718808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22429906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -465,7 +479,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TF/NN/main_TF_Keras1.0.py" />
     <entry file="file://$PROJECT_DIR$/NN/main_TF_ReadFile_Thread1.0.py" />
     <entry file="file://$PROJECT_DIR$/TF/iPythonNotebook/CNN/main_CNN_TF.ipynb" />
     <entry file="file://$PROJECT_DIR$/TF/iPythonNotebook/CNN/.ipynb_checkpoints/main_CNN_TF-checkpoint.ipynb" />
@@ -522,5 +535,13 @@
     <entry file="file://$PROJECT_DIR$/TF/iPythonNotebook/NN/main_NN_TF_Tensorboard_Scope_Runtime_Saver_Restore.ipynb" />
     <entry file="file://$PROJECT_DIR$/TF/iPythonNotebook/1_hello_tensorflow.ipynb" />
     <entry file="file://$PROJECT_DIR$/TF/NN/main_TF1.0.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
